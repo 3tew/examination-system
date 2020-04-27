@@ -5,6 +5,9 @@ import VueMoment from 'vue-moment';
 import VueDataTables from 'vue-data-tables';
 import router from './router';
 
+import axios from 'axios';
+import VueAxios from 'vue-axios';
+
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
@@ -19,6 +22,7 @@ Vue.use(VueDataTables);
 Vue.use(ElementUI);
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
+Vue.use(VueAxios, axios);
 
 import App from './views/App';
 
