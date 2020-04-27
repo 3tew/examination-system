@@ -24,10 +24,10 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 ## Installation - For Developer
 
 1. Clone project นี้โดยการพิมพ์คำสั่งใน CMD หรือ Terminal ว่า `git clone git@github.com:3tew/examination-system.git`
-2. Copy ไฟล์ `.env.example` เป็น `.env` แล้ว `php artisan key:generate`
-3. แก้ไขไฟล์ .env ให้ตรงกับ Configuration ด้านล่าง
-4. พิมพ์ `composer install`
-5. พิมพ์ `npm install`
+2. พิมพ์ `composer install`
+3. พิมพ์ `npm install`
+4. Copy ไฟล์ `.env.example` เป็น `.env` แล้ว `php artisan key:generate`
+5. แก้ไขไฟล์ .env ให้ตรงกับ Configuration ด้านล่าง
 6. Run web server โดยการพิมพ์ `php artisan serve`
 7. เว็บจะทำงานอยู่ที่ `http://localhost:8000/`
 
