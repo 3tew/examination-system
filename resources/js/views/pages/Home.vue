@@ -1,5 +1,7 @@
 <template>
-    <div class="container"></div>
+    <div class="container">
+        <router-link to="/about">Go to About page</router-link>
+    </div>
 </template>
 
 <script>

@@ -8,9 +8,7 @@
 
 <script>
 export default {
-  components: {
-    NavbarComponent
-  },
+  components: { },
   mounted() {
     console.log('App mounted.')
   }
